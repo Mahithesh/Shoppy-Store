@@ -13,12 +13,13 @@ import './App.css'
 const App = () => (
   <Switch>
     <Route exact path="/login" component={LoginForm} />
-    <ProtectedRoute exact path="/" component={Home} />
+    <Redirect exact from="/" to="/login" />
+    <ProtectedRoute exact path="/home" component={Home} />
     <ProtectedRoute exact path="/products" component={Products} />
     <ProtectedRoute exact path="/products/:id" component={ProductItemDetails} />
     <ProtectedRoute exact path="/cart" component={Cart} />
     <Route path="/not-found" component={NotFound} />
-    <Redirect to="not-found" />
+    <Redirect to="/not-found" />
   </Switch>
 )
 
