@@ -1,0 +1,25 @@
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 200px);
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-container {
+    min-height: 70vh;
+  }
+}
+
+.cart-img {
+  width: 120px;
+  height: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-img {
+    width: 150px;
+  }
+}
