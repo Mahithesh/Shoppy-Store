@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Shoppy-Store/static/css/main.ccee3495.chunk.css",
-    "main.js": "/Shoppy-Store/static/js/main.8b372555.chunk.js",
-    "main.js.map": "/Shoppy-Store/static/js/main.8b372555.chunk.js.map",
+    "main.js": "/Shoppy-Store/static/js/main.cf7a90e3.chunk.js",
+    "main.js.map": "/Shoppy-Store/static/js/main.cf7a90e3.chunk.js.map",
     "runtime-main.js": "/Shoppy-Store/static/js/runtime-main.1d06980e.js",
     "runtime-main.js.map": "/Shoppy-Store/static/js/runtime-main.1d06980e.js.map",
     "static/js/2.9cfdee4d.chunk.js": "/Shoppy-Store/static/js/2.9cfdee4d.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.1d06980e.js",
     "static/js/2.9cfdee4d.chunk.js",
     "static/css/main.ccee3495.chunk.css",
-    "static/js/main.8b372555.chunk.js"
+    "static/js/main.cf7a90e3.chunk.js"
   ]
 }
